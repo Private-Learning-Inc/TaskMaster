@@ -2,6 +2,7 @@
   "name": "taskmaster",
   "version": "1.0.0",
   "main": "dist/server.js",
+  "private": true,
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon --watch src --exec ts-node src/app.ts",
@@ -9,9 +10,13 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Nirsi <jan.novak@silen.org>",
+  "authors": [
+    "Nirsi <jan.novak@silen.org> (nirsi.dev)",
+    "Spectris"
+  ],
+  "license": "MPL-2.0",
+  "description": "Learning project for typescript and basic REST API with database",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
